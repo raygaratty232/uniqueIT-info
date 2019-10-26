@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>unique IT-info</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="overflow">
+		<div class="toggle-box">
+			<ul class="toggle-menu">
+				<li class="html-btn box">HTML</li>
+				<li class="css-btn box">CSS</li>
+				<li class="info-btn box">Info-Block</li>
+			</ul>
+		</div>
+		<div class="maint-container">
+			<div class="html-box" data-box="1">
+				<h2>HTML теги</h2>
+				<ul class="tag-list">
+					<li><span>h1-h6 :</span> тег для заголовка</li>
+					<li><span>p :</span> тег для текста</li>
+					<li><span>a :</span> тег для ссылки</li>
+					<li><span>img :</span> тег для картинки</li>
+					<li><span>div :</span> коробка , обвертка для других тегов</li>
+					<li><span>ul li :</span> тег для списка</li>
+					<li><span>class :</span> имя для тега, что бы писать стили только для него</li>
+					<li><span>link :</span> подключаем стили </li>
+					<li><span>src :</span>путь к картинке или файлу</li>
+				</ul>
+			</div>
+			<div class="style-container" data-box="2">
+				<div class="style-box">
+					<h2>Стили для текста</h2>
+					<ul class="style-list">
+						<li>font-size - меняет размер текста</li>
+						<li>color - меняет цвет текста</li>
+						<li>text-align: center - текста по центру</li>
+						<li>line-height: - высота строки</li>
+					</ul>
+				</div>
+				<div class="style-box">
+					<h2>Стили для блоков</h2>
+					<ul class="style-list">
+						<li>width - ширина</li>
+						<li>height - высота</li>
+						<li>background-color цвет задекго фона</li>
+						<li>border - рамка</li>
+						<li>border-radius - скругляет углы</li>
+						<li>box-shadow: - тень</li>
+					</ul>
+				</div>
+			</div>
+			<div class="info-block">
+				<ul class="info-list">
+					<li>
+						<span class="title">PX</span> : это элемент (точка), из которого состоит изображение на экране монитора.<br>
+						В пикселях мы можем записать размер тега, например ширину 100px: 
+						<span class="codeTxt">width: 100px;</span>
+						Или размер текста:
+						<span class="codeTxt">font-size: 20px;</span>
+					</li>
+					<li>
+						Комбинации клавиш
+						<ul class="combo">
+							<li><span class="combo-title">ctrl + c :</span> скопировать</li>
+							<li><span class="combo-title">ctrl + v :</span> вставить</li>
+							<li><span class="combo-title">ctrl + z :</span> вернуть на один шаг назад</li>
+							<li><span class="combo-title">ctrl + a :</span> выделить все</li>
+							<li><span class="combo-title">ctrl + s :</span> сохрать файл в SublimeText</li>
+							<li><span class="combo-title">ctrl + r :</span> обновить страницу</li>
+							<li><span class="combo-title">Tab :</span> SublimeText дописывает код</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
